@@ -45,7 +45,7 @@ const JustificationSection = () => {
                     <h3 class="text-center">Why you should have a <span class="fundbae">Fintech </span>  account</h3>
                     <div class="bar mt-3"></div>
                 </div>
-                <InView as="div" rootMargin={isMobile ? "-200px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('1') : null } >
+                <InView as="div" rootMargin={isMobile ? "-150px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('1') : null } >
                     <motion.div
                     animate={animation}
                     initial="hidden"
@@ -81,7 +81,7 @@ const JustificationSection = () => {
                         </div>
                     </motion.div>
                 </InView>
-                <InView as="div" rootMargin={isMobile ? "-200px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('2') : null }>
+                <InView as="div" rootMargin={isMobile ? "-150px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('2') : null }>
                     <motion.div 
 
                        animate={animation}
@@ -118,7 +118,7 @@ const JustificationSection = () => {
                         </div>
                     </motion.div>
                 </InView>
-                <InView as="div" rootMargin={isMobile ? "-200px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('3') : null }>
+                <InView as="div" rootMargin={isMobile ? "-150px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('3') : null }>
                     <motion.div 
                     animate={animation}
                     initial="hidden"

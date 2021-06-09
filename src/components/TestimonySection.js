@@ -22,7 +22,7 @@ const TestimonySection = () => {
     const animation = useAnimation();
     const [featuredRef, inView] = useInView({
         triggerOnce: true,
-        rootMargin: isMobile ? "-100px" : "-300px"
+        rootMargin: isMobile ? "-150px" : "-300px"
     });
 
     useEffect(() => {

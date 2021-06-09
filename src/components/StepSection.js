@@ -20,7 +20,7 @@ const StepSection = () => {
     const animation = useAnimation();
     const [featuredRef, inView] = useInView({
         triggerOnce: true,
-        rootMargin: isMobile ? "-200px" : "-300px"
+        rootMargin: isMobile ? "-150px" : "-300px"
     });
 
     useEffect(() => {
