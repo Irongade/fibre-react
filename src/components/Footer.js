@@ -1,5 +1,18 @@
 import React from "react";
+
+// assets
+import homeIcon from "../assets/icons/white/Home.svg"
+import mailIcon from "../assets/icons/white/mail.svg"
+import telephoneIcon from "../assets/icons/white/telephone.svg"
+import linkedinIcon from "../assets/icons/white/linkedin-square.svg"
+import whatsappIcon from "../assets/icons/white/whatsapp-square.svg"
+import facebookIcon from "../assets/icons/white/facebook-square.svg"
+import instagramIcon from "../assets/icons/white/instagram-alt.svg"
+import twitterIcon from "../assets/icons/white/twitter.svg"
+
+// styles
 import '../styles/Footer.scss';
+
 
 const Footer = () => {
     return (
@@ -49,7 +62,7 @@ const Footer = () => {
                                 <li>
                                     <div class="d-flex">
                                         <div class="mr-2">
-                                            <img src="/corastone/icons/white/Home.svg" alt="" />
+                                            <img src={homeIcon} alt="" />
                                         </div>
                                         <div class="contact-description">No 8 Omoniyi St, Magodo, Lagos</div>
                                     </div>
@@ -57,7 +70,7 @@ const Footer = () => {
                                 <li>
                                     <div class="d-flex">
                                         <div class="mr-2">
-                                            <img src="/corastone/icons/white/mail.svg" alt="" />
+                                            <img src={telephoneIcon} alt="" />
                                         </div>
                                         <div class="contact-description">+2347067984583</div>
                                     </div> 
@@ -65,7 +78,7 @@ const Footer = () => {
                                 <li>
                                     <div class="d-flex">
                                         <div class="mr-2">
-                                            <img src="/corastone/icons/white/telephone.svg" alt="" />
+                                            <img src={mailIcon} alt="" />
                                         </div>
                                         <div class="contact-description">hello@fintech.ng</div>
                                     </div>
@@ -74,27 +87,27 @@ const Footer = () => {
                                     <div class="d-flex">
                                         <div class="">
                                             <a href="#" target="_blank">
-                                                <img src="/corastone/icons/white/linkedin-square.svg" alt="" />
+                                                <img src={linkedinIcon} alt="" />
                                             </a>
                                         </div> 
                                         <div class="px-1">
                                             <a href="#" target="_blank">
-                                                <img src="/corastone/icons/white/whatsapp-square.svg" alt="" />
+                                                <img src={whatsappIcon} alt="" />
                                             </a>
                                         </div>
                                         <div class="px-1">
                                             <a href="#" target="_blank">
-                                                <img src="/corastone/icons/white/facebook-square.svg" alt="" />
+                                                <img src={facebookIcon} alt="" />
                                             </a>
                                         </div>
                                         <div class="px-1">
                                             <a href="#" target="_blank">
-                                                <img src="/corastone/icons/white/instagram-alt.svg" alt="" />
+                                                <img src={instagramIcon} alt="" />
                                             </a>
                                         </div>
                                         <div class="px-1">
                                             <a href="#" target="_blank">
-                                                <img src="/corastone/icons/white/twitter.svg" alt="" />
+                                                <img src={twitterIcon} alt="" />
                                             </a>
                                         </div>
                                     </div>

@@ -1,12 +1,20 @@
 import React, {useState, useEffect} from "react";
 import { useMediaQuery } from 'react-responsive'
 
-// style
-import "../styles/JustificationSection.scss"
-
 //scroll observer
 import {InView} from "react-intersection-observer";
 import {motion, useAnimation} from "framer-motion"
+
+// styles
+import "../styles/JustificationSection.scss"
+
+// assets
+import shape1 from "../assets/images/Rectangle-158.svg"
+import shape2 from "../assets/images/Ellipse-32.svg"
+import manIllustration from "../assets/images/manIllustration.svg"
+import manAndWomanIllustration from "../assets/images/manAndWomanIllustration 1.svg"
+import manArrowIllustration from "../assets/images/manArrowIllustration 4.svg"
+
 
 const JustificationSection = () => {
     const [currentDiv, SetCurrentDiv] = useState("");
@@ -29,10 +37,10 @@ const JustificationSection = () => {
     return (
         <section id="justifications">
             <div className="container">
-                <div class="shape-1"><img src="/corastone/images/Rectangle-158.svg" alt="" /></div>
-                <div class="shape-2"><img src="/corastone/images/Ellipse-32.svg" alt="" /></div>
-                <div class="shape-3"><img src="/corastone/images/Rectangle-158.svg" alt="" /></div>
-                <div class="shape-4"><img src="/corastone/images/Ellipse-32.svg" alt="" /></div>
+                <div class="shape-1"><img src={shape1} alt="" /></div>
+                <div class="shape-2"><img src={shape2} alt="" /></div>
+                <div class="shape-3"><img src={shape1} alt="" /></div>
+                <div class="shape-4"><img src={shape2} alt="" /></div>
                 <div class="justification-title" data-aos="fade-up">
                     <h3 class="text-center">Why you should have a <span class="fundbae">Fintech </span>  account</h3>
                     <div class="bar mt-3"></div>
@@ -68,7 +76,7 @@ const JustificationSection = () => {
                         </div>
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="justification-content-image pt-5" data-aos="fade-up">
-                                <img src="/corastone/images/manIllustration.svg" alt="" class="img-fluid" />
+                                <img src={manIllustration} alt="" class="img-fluid" />
                             </div>
                         </div>
                     </motion.div>
@@ -95,7 +103,7 @@ const JustificationSection = () => {
                     class="row pt-5">
                         <div class="col-md-6">
                             <div class="justification-content-image pt-5" data-aos="fade-up">
-                                <img src="/corastone/images/manAndWomanIllustration 1.svg" alt="" class="img-fluid" />
+                                <img src={manAndWomanIllustration} alt="" class="img-fluid" />
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -141,7 +149,7 @@ const JustificationSection = () => {
                         </div>
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="justification-content-image" data-aos="fade-up">
-                                <img src="/corastone/images/manArrowIllustration 4.svg" alt="" class="img-fluid" />
+                                <img src={manArrowIllustration} alt="" class="img-fluid" />
                             </div>
                         </div>
                     </motion.div>

@@ -1,12 +1,18 @@
 import React,{useEffect} from "react";
 import { useMediaQuery } from 'react-responsive'
 
-// style
-import "../styles/StepSection.scss"
-
 //scroll observer
 import {useInView} from "react-intersection-observer";
 import {motion, useAnimation} from "framer-motion"
+
+// style
+import "../styles/StepSection.scss"
+
+// assets 
+import dashboardLogo from "../assets/images/dashboard 1.svg";
+import numberLogo1 from "../assets/images/number1white.svg";
+import numberLogo2 from "../assets/images/number2white.svg";
+import numberLogo3 from "../assets/images/number3white.svg";
 
 const StepSection = () => {
 
@@ -51,7 +57,7 @@ const StepSection = () => {
                         <div class="steps-body p-4" data-aos="fade-up">
                             <div class="text-center steps-left-title my-3">Steps to Financial Freedom</div>
                             <div class="steps-image text-center my-5">
-                                <img src="/corastone/images/dashboard 1.svg" alt="" class="img-fluid" />
+                                <img src={dashboardLogo} alt="" class="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -60,7 +66,7 @@ const StepSection = () => {
                             <div class="description-list my-5 mx-4">
                                 <div class="d-flex">
                                     <div class="list-icon mr-4">
-                                        <img src="/corastone/images/number1white.svg" alt="" />
+                                        <img src={numberLogo1} alt="" />
                                     </div>
                                     <div class="list-content mt-1">
                                         <div class="list-title">
@@ -74,7 +80,7 @@ const StepSection = () => {
 
                                 <div class="d-flex my-5">
                                     <div class="list-icon mr-4">
-                                        <img src="/corastone/images/number2white.svg" alt="" />
+                                        <img src={numberLogo2} alt="" />
                                     </div>
                                     <div class="list-content mt-1">
                                         <div class="list-title">
@@ -88,7 +94,7 @@ const StepSection = () => {
 
                                 <div class="d-flex">
                                     <div class="list-icon mr-4">
-                                        <img src="/corastone/images/number3white.svg" alt="" />
+                                        <img src={numberLogo3} alt="" />
                                     </div>
                                     <div class="list-content">
                                         <div class="list-title">

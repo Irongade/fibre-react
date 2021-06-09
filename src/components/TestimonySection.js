@@ -1,13 +1,20 @@
 import React, {useEffect} from "react";
 import { useMediaQuery } from 'react-responsive'
 
-// style
-import '../styles/TestimonySection.scss'
-
 //scroll observer
 import {useInView} from "react-intersection-observer";
 import {motion, useAnimation} from "framer-motion"
 
+// style
+import '../styles/TestimonySection.scss'
+
+// assets 
+import googlePlayLogo from "../assets/images/google-play-badge.svg"
+import appleStoreLogo from "../assets/images/apple-store-badge.svg";
+import mobileAppLogo from "../assets/images/mobileApp.png";
+import interswitchLogo from "../assets/logos/interswitch-logo.svg";
+import paystackLogo from "../assets/logos/paystack-logo.svg";
+import flutterwaveLogo from "../assets/logos/flutterwave-logo.svg";
 
 const TestimonySection = () => {
 
@@ -59,17 +66,17 @@ const TestimonySection = () => {
                             <div class="body-text mb-3">Download FundBae mobile app on</div>
                             <div class="testimony-jumbotron-button d-flex">
                                 <a href="#" target="_blank" class="border-0">
-                                    <img src="/corastone/images/google-play-badge.svg" alt="google Play Badge" class="img-fluid" />
+                                    <img src={googlePlayLogo} alt="google Play Badge" class="img-fluid" />
                                 </a>
                                 <a href="#" target="_blank" class="ml-3 border-0">
-                                    <img src="/corastone/images/apple-store-badge.svg" alt="Apple Store Badge" class="img-fluid" />
+                                    <img src={appleStoreLogo} alt="Apple Store Badge" class="img-fluid" />
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mobile-img-wrapper">
-                            <img src="/corastone/images/mobileApp.png" alt="fundbae App" class="img-fluid" />
+                            <img src={mobileAppLogo} alt="fundbae App" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -77,24 +84,19 @@ const TestimonySection = () => {
                 <div class="partners">
                     <h4>Our Partners</h4>
                     <div class="row">
-                        <div class="col-md-6 col-lg-3">
+                        <div class="col-md-6 col-lg-4">
                             <div class="partner-logo-wrapper">
-                                <img src="/corastone/logos/flutterwave-logo.svg" alt="" />
+                                <img src={flutterwaveLogo} alt="" />
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
+                        <div class="col-md-6 col-lg-4">
                             <div class="partner-logo-wrapper">
-                                <img src="/corastone/logos/monnify-logo.svg" alt="" />
+                                <img src={interswitchLogo} alt="" />
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
+                        <div class="col-md-6 col-lg-4">
                             <div class="partner-logo-wrapper">
-                                <img src="/corastone/logos/interswitch-logo.svg" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="partner-logo-wrapper">
-                                <img src="/corastone/logos/paystack-logo.svg" alt="" />
+                                <img src={paystackLogo} alt="" />
                             </div>
                         </div>
                     </div>
