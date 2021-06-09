@@ -1,0 +1,125 @@
+#steps {
+    background: url('/assets/svg/bg-image 1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .steps-body .steps-left-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        color: #fff;
+    }
+
+    .steps-description-bg, .steps-body-bg {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .steps-description-bg {
+        background: rgba(216, 220, 243, 0.1);
+    }
+
+    .steps-description {
+        .list-content .list-title h6 {
+            color: #fff;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 27px;
+        }
+
+        .list-content .list-description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+            color: #fff;
+        }
+    }
+}
+
+ @media (min-width: 768px) and (max-width: 1199px){
+
+    #steps {
+        .steps-body .steps-left-title {
+            font-size: 25px;
+        }
+
+        .steps-description {
+            .list-content {
+                .list-title h6 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+ }
+
+@media (max-width: 991px){
+   .mb {
+       margin-bottom: 30px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+   #steps {
+       
+        .steps-description {
+            .list-icon {
+                img {
+                    height: 1.5rem;
+                }
+            }
+
+            .list-content {
+                .list-title h6 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+    
+@media (max-width: 575px){
+    #steps {
+        .steps-description-bg {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .steps-body {
+            .steps-left-title {
+                font-size: 21px;
+            }
+        }
+
+        .steps-description {
+            .list-icon {
+                img {
+                    height: 1.5rem;
+                }
+            }
+
+            .list-content {
+                padding-left: 0;
+
+                .list-title h6 {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                .list-description {
+                    font-size: 16px;
+                }
+            }
+            .mx-4 {
+                margin-left: 8px !important;
+                margin-right: 0 !important;
+            }
+        }
+    }
+}

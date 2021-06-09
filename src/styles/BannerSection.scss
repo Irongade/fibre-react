@@ -1,0 +1,358 @@
+#hero-section {
+    position: relative;
+    height: 720px;
+    background: url('/assets/svg/home-landing-bg.svg') no-repeat;
+    background-size: cover;
+    padding: 44px 0 0;
+    background-color: #F0f0f0;
+
+    .mtop {
+        margin-top: 5rem;
+    }
+
+    .header-description {
+        margin-top: 100px;
+
+        h1 {
+           font-style: normal;
+           font-weight: 900;
+           font-size: 3rem; 
+           line-height: 49px;
+           letter-spacing: 0.02em;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px 
+        }
+
+        button {
+            background: #F8EBFF; 
+            border-color: #F8EBFF;
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            line-height: 17px;
+            letter-spacing: 0.02em;
+            color: #60295C;
+
+            padding: 18px 26px;
+
+            &:hover {
+               background: #e6daec; 
+                border-color: #e6daec; 
+            }
+        }
+
+        .rounded {
+             border-radius: 8px !important;
+        }
+    }
+
+    .shape1 {
+        position: absolute;
+        left: 0;
+        top: 8.5%;
+        //transform: matrix(-0.87, -0.5, 0.5, -0.87, 0, 0);
+        animation: left2right 6s linear 0s infinite;
+
+    }
+
+    .shape2 {
+        position: absolute;
+        right: 12%;
+        top: 13%;
+        animation: roatate 10s linear 5s infinite;
+    }
+}
+
+    // animation
+    @-webkit-keyframes left2right {
+        0% {
+            -ms-transform: translateX(0px);
+            /* IE 9 */
+            -webkit-transform: translateX(0px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(0px); }
+        50% {
+            -ms-transform: translateX(100px);
+            /* IE 9 */
+            -webkit-transform: translateX(100px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(100px); }
+        100% {
+            -ms-transform: translateX(0px);
+            /* IE 9 */
+            -webkit-transform: translateX(0px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(0px); } 
+    }
+
+    @keyframes left2right {
+        0% {
+            -ms-transform: translateX(0px);
+            /* IE 9 */
+            -webkit-transform: translateX(0px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(0px); }
+        50% {
+            -ms-transform: translateX(100px);
+            /* IE 9 */
+            -webkit-transform: translateX(100px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(100px); }
+        100% {
+            -ms-transform: translateX(0px);
+            /* IE 9 */
+            -webkit-transform: translateX(0px);
+            /* Chrome, Safari, Opera */
+            transform: translateX(0px); } 
+    }
+
+    @keyframes roatate {
+        0% {
+          -ms-transform: rotate(90deg);
+          /* IE 9 */
+          -webkit-transform: rotate(90deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(90deg);
+          opacity: 0.3; }
+        25% {
+          opacity: 0.6;
+          -ms-transform: rotate(180deg);
+          /* IE 9 */
+          -webkit-transform: rotate(180deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(180deg); }
+        50% {
+          -ms-transform: rotate(-90deg);
+          /* IE 9 */
+          -webkit-transform: rotate(-90deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(-90deg);
+          opacity: 0.8; }
+        75% {
+          -ms-transform: rotate(-180deg);
+          /* IE 9 */
+          -webkit-transform: rotate(-180deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(-180deg);
+          opacity: 0.6; }
+        100% {
+          -ms-transform: rotate(-90deg);
+          /* IE 9 */
+          -webkit-transform: rotate(-90deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(-90deg);
+          opacity: 0.3; } }
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    #hero-section {
+       .header-description {
+           h1 {
+               font-size: 2.5rem;
+           }
+
+           .d-flex {
+
+               button {
+                   padding: 18px 15px;
+               }
+           }
+       }
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #hero-section {
+        .header-description {
+            h1 {
+                font-size: 1.9rem;
+                line-height: 38px;
+            }
+            h6 {
+                font-size: 18px;
+            }
+            .d-flex {
+                 button {
+                    padding: 12px 9px;
+                    font-size: 12px;
+                }
+                img {
+                    height: 2.5rem;
+                }
+            }
+        }
+
+        .header-image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1444px) {
+    #hero-section {
+        height: 800px;
+    }
+}
+
+ @media (min-width: 1610px) {
+    #hero-section {
+        height: 100vh;
+
+        .mtop {
+            margin-top: 10rem;
+        }
+    }
+}
+
+ @media (min-width: 992px) and (max-width: 1199px){
+
+     #hero-section {
+        .header-description {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .d-flex {
+
+                button {
+                    padding: 18px 15px;
+                }
+            }
+        }
+    }
+
+     #justifications {
+        .container {
+            .justification-title h3 {
+                font-size: 30px;
+            }
+
+             .justification-content {
+
+                .justification-content-head {
+                    h5 {
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+@media (max-width: 991px){
+   .mb {
+       margin-bottom: 30px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #hero-section {
+        .header-description {
+            h1 {
+                font-size: 1.9rem;
+                line-height: 38px;
+            }
+
+            h6 {
+                font-size: 18px;
+            }
+
+            .d-flex {
+                 button {
+                    padding: 12px 9px;
+                    font-size: 12px;
+                }
+
+                img {
+                    height: 2.5rem;
+                }
+            }
+        }
+
+        .header-image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    
+    #hero-section {
+        
+        .mtop {
+            margin-top: 7rem;
+        }
+        
+        .shape1 {
+            display: none;
+        }
+
+        .shape2 {
+            right: 20%;
+        }
+
+        .header-description {
+            margin-top: 0;
+            text-align: center;
+
+            h1 {
+                font-size: 2.5rem !important;
+            }
+
+            .d-flex {
+                justify-content: center;
+
+                button {
+                    padding: 18px 15px;
+                }
+
+                a {
+                    display: block;
+                    margin-top: 1rem;
+
+                    img {
+                        height: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    #hero-section {
+          .shape2 {
+            right: 26%;
+        }
+
+        .header-description {
+
+            h1 {
+                font-size: 2rem !important;
+                line-height: 31px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 341px) {
+    #hero-section {
+        .header-description {
+            button {
+                font-size: 12px;
+            }
+        }
+    }
+}

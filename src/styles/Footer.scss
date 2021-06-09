@@ -1,0 +1,90 @@
+#footer {
+    background: linear-gradient(144.94deg, #000428 10.4%, #004e92 87.38%);
+
+    .newsletter-form {
+        h6 {
+            line-height: 28px;
+            font-size: 18px;
+        }
+        .btn-primary {
+            background: #F8EBFF; 
+            border-color: #F8EBFF;
+            color: #60295C;
+            font-weight: 600;
+            font-size: 14px;
+
+            &:hover {
+               background: #e6daec; 
+                border-color: #e6daec; 
+            }
+        }
+
+        .form-control {
+            background: #31296B;
+            border-radius: 4px;
+            color: #fff;
+        }
+
+        .sendBtn {
+            top: -1px; 
+            right: 10px
+        }
+
+        .btn {
+            padding: .375rem 0;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        ::placeholder {
+            color: #fff;
+        }
+    }
+
+    .footer-links {
+        .footer-header {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+        .copy-right {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+        }
+    }
+
+    .footer-link ul {
+        list-style-type: none;
+        padding-left: 0px;
+
+        li {
+            padding: 5px 0px;
+
+            a {
+                color: #fff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+
+            .d-flex .contact-description {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

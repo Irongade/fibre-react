@@ -1,0 +1,356 @@
+#testimonies {
+    background: url('/assets/svg/asset-15.1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13rem 0 82px;
+    position: relative;
+
+    .testimonies-title h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 2%;
+        color: #2C3C90;
+    }
+
+    .shape-1 {
+            position: absolute;
+            top: -17%;
+            right: 15%;
+            z-index: 10;
+            animation: upndown 10s linear 2s infinite;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+
+        .shape-2 {
+            position: absolute;
+            bottom: -17%;
+            left: 15%;
+            animation: upndown 10s linear 2s infinite;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+    .cta-card {
+        background: #D3D8F2;
+        border-radius: 8px;
+        align-items: center;
+        margin-bottom: 82px;
+    }
+
+
+    .testimony-jumbotron {
+        padding-left: 96px;
+
+        .convinced {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 2rem; 
+            line-height: 28px;
+            letter-spacing: 0.02em;
+            color: #2C3C90;
+        }
+
+        .body-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.005em;
+            color: #1D1D3F;
+        }
+
+        .testimony-jumbotron-button button {
+                background: #2C3C90;
+                border-radius: 8px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+        }
+    }
+
+    .testimony-card {
+        box-shadow: 0px 1px 8px rgba(44, 60, 144, 0.25);
+        border-radius: 8px;
+
+        .testimony-card-body {
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+        }
+
+        .testimony-card-footer {
+            background: #F4F4F5;
+
+            .testimony-card-footer-content .testimony-card-footer-content-title {
+                font-family: Source Sans Pro;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 0.02em;
+                color: #000000;
+            }
+
+            .testimony-card-footer-content .testimony-card-footer-content-body {
+                font-family: Source Sans Pro;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+            }
+        }
+    }
+
+    .partners {
+        h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px; 
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+// media queries
+
+ @media (min-width: 768px) and (max-width: 1199px){
+
+    #testimonies {
+
+        .shape-1 {
+
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+
+        .shape-2 {
+
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .testimony-jumbotron {
+            .convinced {
+                font-size: 1.7rem; 
+            }
+
+        }
+    }
+ }
+
+@media (max-width: 991px){
+   .mb {
+       margin-bottom: 30px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #testimonies {
+        padding: 9rem 0 62px;
+
+        .cta-card {
+            border-radius: 8px;
+            margin-bottom: 82px;
+        }
+
+
+        .testimony-jumbotron {
+            padding-left: 96px;
+
+            .convinced {
+                font-size: 1.6rem; 
+                line-height: 28px;
+            }
+
+            .body-text {
+                font-size: 14px;
+            }
+
+            .testimony-jumbotron-button a {
+                img {
+                    height: 3rem;
+                }
+            }
+        }
+        .partners {
+
+            .partner-logo-wrapper {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #testimonies {
+        padding: 6rem 0 62px;
+
+         .shape-1 {
+             left: 0;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .shape-2 {
+            right: 0;
+            text-align: right;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .cta-card {
+            border-radius: 8px;
+            margin-bottom: 82px;
+            text-align: center;
+        }
+
+        .testimony-jumbotron {
+            padding-left: 0;
+            padding-top: 2rem;
+
+            .convinced {
+                font-size: 1.5rem; 
+                display: flex;
+                justify-content: center;
+            }
+
+            .body-text {
+                font-size: 14px;
+                margin-bottom: 2rem !important;
+            }
+
+            .testimony-jumbotron-button a {
+                img {
+                    height: 3rem;
+                }
+            }
+        }
+
+        .mobile-img-wrapper {
+            margin-top: 2rem;
+        }
+
+        .partners {
+            text-align: center;
+
+             h4 {
+                 display: flex;
+                 justify-content: center;
+             }
+
+            .partner-logo-wrapper {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    #testimonies {
+        .cta-card {
+            margin: 0 1.5rem 82px;
+        }
+
+
+        .testimony-jumbotron {
+            padding-left: 0;
+            padding-top: 2rem;
+
+            .convinced {
+                font-size: 1.5rem; 
+            }
+
+            .body-text {
+                font-size: 14px;
+            }
+        }
+
+        .partners {
+            text-align: center;
+
+             h4 {
+                 display: flex;
+                 justify-content: center;
+             }
+
+            .partner-logo-wrapper {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 360px) {
+    #testimonies {
+
+        .testimony-jumbotron {
+            padding-left: 0;
+            padding-top: 2rem;
+
+            .convinced {
+                font-size: 1.5rem; 
+            }
+
+            .body-text {
+                margin-bottom: 2rem !important;
+            }
+        }
+
+        .mobile-img-wrapper {
+            margin-top: 2rem;
+        }
+
+        .partners {
+            text-align: center;
+
+             h4 {
+                 display: flex;
+                 justify-content: center;
+             }
+
+            .partner-logo-wrapper {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 359px) {
+    #testimonies {
+        .cta-card {
+            margin: 0 0 82px;
+        }
+    }
+}
