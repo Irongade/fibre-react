@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fibre-react/static/css/main.d7c08e80.chunk.css",
-    "main.js": "/fibre-react/static/js/main.0d36ad92.chunk.js",
-    "main.js.map": "/fibre-react/static/js/main.0d36ad92.chunk.js.map",
+    "main.js": "/fibre-react/static/js/main.f87d4819.chunk.js",
+    "main.js.map": "/fibre-react/static/js/main.f87d4819.chunk.js.map",
     "runtime-main.js": "/fibre-react/static/js/runtime-main.f2e134a3.js",
     "runtime-main.js.map": "/fibre-react/static/js/runtime-main.f2e134a3.js.map",
     "static/css/2.3bd6a631.chunk.css": "/fibre-react/static/css/2.3bd6a631.chunk.css",
@@ -54,6 +54,6 @@
     "static/css/2.3bd6a631.chunk.css",
     "static/js/2.9a126c3d.chunk.js",
     "static/css/main.d7c08e80.chunk.css",
-    "static/js/main.0d36ad92.chunk.js"
+    "static/js/main.f87d4819.chunk.js"
   ]
 }
