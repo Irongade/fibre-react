@@ -63,7 +63,7 @@ const TestimonySection = () => {
                     <div class="col-md-6">
                         <div class="testimony-jumbotron">
                             <h4 class="convinced">Join Us Today</h4>
-                            <div class="body-text mb-3">Download FundBae mobile app on</div>
+                            <div class="body-text mb-3">Download Fintech mobile app on</div>
                             <div class="testimony-jumbotron-button d-flex">
                                 <a href="#" target="_blank" class="border-0">
                                     <img src={googlePlayLogo} alt="google Play Badge" class="img-fluid" />

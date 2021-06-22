@@ -87,7 +87,7 @@ const StepSection = () => {
                                             <h6 class="font-weight-bold">Set your goal</h6>
                                         </div>
                                         <div class="list-description mt-3">
-                                            Between Safelock and ExpressSavings, choose the goal that best suits your needs. 
+                                            Choose the goal that best suits your needs. 
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ const StepSection = () => {
                                             <h6 class="font-weight-bold">Earn Interests</h6>
                                         </div>
                                         <div class="list-description mt-3">
-                                        Now, it's time for you to relax and let your money do the heavy lifting. 
+                                        Now, it's time for you to relax and let your money do all the work for you. 
                                         </div>
                                     </div>
                                 </div>
