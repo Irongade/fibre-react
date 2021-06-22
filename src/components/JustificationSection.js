@@ -37,13 +37,13 @@ const JustificationSection = () => {
     return (
         <section id="justifications">
             <div className="container">
-                <div class="shape-1"><img src={shape1} alt="" /></div>
-                <div class="shape-2"><img src={shape2} alt="" /></div>
-                <div class="shape-3"><img src={shape1} alt="" /></div>
-                <div class="shape-4"><img src={shape2} alt="" /></div>
-                <div class="justification-title" data-aos="fade-up">
-                    <h3 class="text-center">Why you should have a <span class="fundbae">Fintech </span>  account</h3>
-                    <div class="bar mt-3"></div>
+                <div className="shape-1"><img src={shape1} alt="" /></div>
+                <div className="shape-2"><img src={shape2} alt="" /></div>
+                <div className="shape-3"><img src={shape1} alt="" /></div>
+                <div className="shape-4"><img src={shape2} alt="" /></div>
+                <div className="justification-title" data-aos="fade-up">
+                    <h3 className="text-center">Why you should have a <span className="fundbae">Fintech </span>  account</h3>
+                    <div className="bar mt-3"></div>
                 </div>
                 <InView as="div" rootMargin={isMobile ? "-150px" : "-300px"} onChange={(inView) => inView ? SetCurrentDiv('1') : null } >
                     <motion.div
@@ -63,20 +63,20 @@ const JustificationSection = () => {
                             y: 72
                         }
                     }}
-                    class="row">
-                        <div class="col-md-6 order-2 order-md-1">
-                            <div class="justification-content" data-aos="fade-up">
-                                <div class="justification-content-head pt-5 pb-4">
+                    className="row">
+                        <div className="col-md-6 order-2 order-md-1">
+                            <div className="justification-content" data-aos="fade-up">
+                                <div className="justification-content-head pt-5 pb-4">
                                     <h5>Make wise investment decisions on the go</h5>
                                 </div>
-                                <div class="justification-content-body">
+                                <div className="justification-content-body">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis mattis eros, id volutpat arcu blandit a. Nullam purus justo, scelerisque at nisi a, convallis commodo ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 order-1 order-md-2">
-                            <div class="justification-content-image pt-5" data-aos="fade-up">
-                                <img src={manIllustration} alt="" class="img-fluid" />
+                        <div className="col-md-6 order-1 order-md-2">
+                            <div className="justification-content-image pt-5" data-aos="fade-up">
+                                <img src={manIllustration} alt="" className="img-fluid" />
                             </div>
                         </div>
                     </motion.div>
@@ -100,18 +100,18 @@ const JustificationSection = () => {
                                y: 72
                            }
                        }}
-                    class="row pt-5">
-                        <div class="col-md-6">
-                            <div class="justification-content-image pt-5" data-aos="fade-up">
-                                <img src={manAndWomanIllustration} alt="" class="img-fluid" />
+                    className="row pt-5">
+                        <div className="col-md-6">
+                            <div className="justification-content-image pt-5" data-aos="fade-up">
+                                <img src={manAndWomanIllustration} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="justification-content" data-aos="fade-up">
-                                <div class="justification-content-head pt-5 pb-4">
+                        <div className="col-md-6">
+                            <div className="justification-content" data-aos="fade-up">
+                                <div className="justification-content-head pt-5 pb-4">
                                     <h5>Getting a loan has never been this easy</h5>
                                 </div>
-                                <div class="justification-content-body">
+                                <div className="justification-content-body">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis mattis eros, id volutpat arcu blandit a. Nullam purus justo, scelerisque at nisi a, convallis commodo ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
                                 </div>
                             </div>
@@ -136,20 +136,20 @@ const JustificationSection = () => {
                             y: 72
                         }
                     }}
-                    class="row pt-5">
-                        <div class="col-md-6 order-2 order-md-1">
-                            <div class="justification-content" data-aos="fade-up">
-                                <div class="justification-content-head pt-5 pb-4">
+                    className="row pt-5">
+                        <div className="col-md-6 order-2 order-md-1">
+                            <div className="justification-content" data-aos="fade-up">
+                                <div className="justification-content-head pt-5 pb-4">
                                     <h5>Pay your bills, manage your expenses</h5>
                                 </div>
-                                <div class="justification-content-body">
+                                <div className="justification-content-body">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis mattis eros, id volutpat arcu blandit a. Nullam purus justo, scelerisque at nisi a, convallis commodo ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 order-1 order-md-2">
-                            <div class="justification-content-image" data-aos="fade-up">
-                                <img src={manArrowIllustration} alt="" class="img-fluid" />
+                        <div className="col-md-6 order-1 order-md-2">
+                            <div className="justification-content-image" data-aos="fade-up">
+                                <img src={manArrowIllustration} alt="" className="img-fluid" />
                             </div>
                         </div>
                     </motion.div>

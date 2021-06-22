@@ -31,35 +31,35 @@ const NavBar = () => {
 
     return (
         <div>
-            <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src={whiteFintechLogo} alt="" class="fundbae-logo" />
+            <nav className="navbar navbar-expand-md fixed-top navbar-light" id="mainNav">
+                <div data-testid="navbar-container" className="container">
+                    <a className="navbar-brand" href="#">
+                        <img src={whiteFintechLogo} alt="" className="fundbae-logo" />
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon d-none"></span> 
-                        <img class="menu" src={whiteMenuLogo} alt="logo" />
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon d-none"></span> 
+                        <img className="menu" src={whiteMenuLogo} alt="logo" />
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <div class="ml-auto d-md-flex">
-                            <ul class="navbar-nav mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div className="ml-auto d-md-flex">
+                            <ul className="navbar-nav mt-2 mt-lg-0">
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link">FAQ</a>
+                                <li className="nav-item">
+                                    <a className="nav-link">FAQ</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" target="_blank">Blog</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#" target="_blank">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a  class="nav-link" href="#">Sign In</a>
+                                <li className="nav-item">
+                                    <a  className="nav-link" href="#">Sign In</a>
                                 </li> 
                             </ul>
 
-                            <div class="navigation-btn">
-                                <button class="px-4 py-2 border-0 text-white">Sign Up</button>
+                            <div className="navigation-btn">
+                                <button className="px-4 py-2 border-0 text-white">Sign Up</button>
                             </div>
                         </div>
 

@@ -51,56 +51,56 @@ const StepSection = () => {
 
             }}
             id="steps">
-            <div class="container-fluid pl-0">
-                <div class="row">
-                    <div class="col-md-6 pr-0 steps-body-bg">
-                        <div class="steps-body p-4" data-aos="fade-up">
-                            <div class="text-center steps-left-title my-3">Steps to Financial Freedom</div>
-                            <div class="steps-image text-center my-5">
-                                <img src={dashboardLogo} alt="" class="img-fluid" />
+            <div className="container-fluid pl-0">
+                <div className="row">
+                    <div className="col-md-6 pr-0 steps-body-bg">
+                        <div className="steps-body p-4" data-aos="fade-up">
+                            <div className="text-center steps-left-title my-3">Steps to Financial Freedom</div>
+                            <div className="steps-image text-center my-5">
+                                <img src={dashboardLogo} alt="" className="img-fluid" />
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 px-0 steps-description-bg">
-                        <div class="steps-description px-4 py-3" data-aos="fade-up">
-                            <div class="description-list my-5 mx-4">
-                                <div class="d-flex">
-                                    <div class="list-icon mr-4">
+                    <div className="col-md-6 px-0 steps-description-bg">
+                        <div className="steps-description px-4 py-3" data-aos="fade-up">
+                            <div className="description-list my-5 mx-4">
+                                <div className="d-flex">
+                                    <div className="list-icon mr-4">
                                         <img src={numberLogo1} alt="" />
                                     </div>
-                                    <div class="list-content mt-1">
-                                        <div class="list-title">
-                                            <h6 class="font-weight-bold">Create a FREE Fintech Account</h6>
+                                    <div className="list-content mt-1">
+                                        <div className="list-title">
+                                            <h6 className="font-weight-bold">Create a FREE Fintech Account</h6>
                                         </div>
-                                        <div class="list-description mt-3">
+                                        <div className="list-description mt-3">
                                             Create a profile and confirm your identity in a few easy steps.
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="d-flex my-5">
-                                    <div class="list-icon mr-4">
+                                <div className="d-flex my-5">
+                                    <div className="list-icon mr-4">
                                         <img src={numberLogo2} alt="" />
                                     </div>
-                                    <div class="list-content mt-1">
-                                        <div class="list-title">
-                                            <h6 class="font-weight-bold">Set your goal</h6>
+                                    <div className="list-content mt-1">
+                                        <div className="list-title">
+                                            <h6 className="font-weight-bold">Set your goal</h6>
                                         </div>
-                                        <div class="list-description mt-3">
+                                        <div className="list-description mt-3">
                                             Choose the goal that best suits your needs. 
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="d-flex">
-                                    <div class="list-icon mr-4">
+                                <div className="d-flex">
+                                    <div className="list-icon mr-4">
                                         <img src={numberLogo3} alt="" />
                                     </div>
-                                    <div class="list-content">
-                                        <div class="list-title">
-                                            <h6 class="font-weight-bold">Earn Interests</h6>
+                                    <div className="list-content">
+                                        <div className="list-title">
+                                            <h6 className="font-weight-bold">Earn Interests</h6>
                                         </div>
-                                        <div class="list-description mt-3">
+                                        <div className="list-description mt-3">
                                         Now, it's time for you to relax and let your money do all the work for you. 
                                         </div>
                                     </div>
