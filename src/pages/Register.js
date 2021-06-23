@@ -98,7 +98,7 @@ const Register = () => {
             </form>
           </div>
         </div>
-        <a href="#"> Already have an account? Log In </a>
+        <a id="link" href="#"> Already have an account? Log In </a>
       </div>
       <Footer />
       </>

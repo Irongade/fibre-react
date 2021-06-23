@@ -88,14 +88,15 @@
   }
   
   .btn:hover {
+    color: #fff;
     background-color: rgb(9, 9, 128);
     font-family: "Open Sans", sans-serif;
   }
   
-  a {
-    margin: 32px 0 0 0;
+  #link {
+    margin: 56px 0 0 0;
     padding: 4px 12px;
-    color: #ffffff;
+    color: #4a5568;
     text-decoration: none;
     font: 12px "Open Sans", sans-serif;
   }
