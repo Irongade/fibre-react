@@ -58,9 +58,9 @@ const NavBar = () => {
                                 </li> 
                             </ul>
 
-                            <div className="navigation-btn">
+                            {/* <div className="navigation-btn">
                                 <button className="px-4 py-2 border-0 text-white">Sign Up</button>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
