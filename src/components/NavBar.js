@@ -54,7 +54,7 @@ const NavBar = () => {
                                     <a className="nav-link" href="#" target="_blank">Blog</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a  className="nav-link" href="#">Sign In</a>
+                                    <a  className="nav-link" href="/register">Sign Up</a>
                                 </li> 
                             </ul>
 
